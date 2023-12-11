@@ -22,19 +22,18 @@ def generate_first_n_primes(n):
         num += 1
     return primes
 
-# Accept a number 'n' from the user
+
 n = int(input("Enter a number (n): "))
 
-# Check if 'n' is a prime number
+
 if is_prime(n):
     print(f"{n} is a prime number.")
 else:
     print(f"{n} is not a prime number.")
 
-# Generate and print all prime numbers up to 'n'
 primes_up_to_n = generate_primes_up_to_n(n)
 print(f"Prime numbers up to {n}: {primes_up_to_n}")
 
-# Generate and print the first 'n' prime numbers
+
 first_n_primes = generate_first_n_primes(n)
 print(f"First {n} prime numbers: {first_n_primes}")
