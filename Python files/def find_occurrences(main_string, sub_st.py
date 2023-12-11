@@ -11,7 +11,6 @@ def find_occurrences(main_string, sub_string):
 
     return indices if indices else -1
 
-# Example usage:
 main_str = input("Enter the main string: ")
 sub_str = input("Enter the sub string: ")
 
