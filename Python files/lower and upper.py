@@ -11,8 +11,7 @@ def analyze_character(char):
     else:
         print(f"The character '{char}' is a special character.")
 
-# Accepting a character from the user
+
 user_input = input("Enter a character: ")
 
-# Checking and printing the analysis
 analyze_character(user_input)
