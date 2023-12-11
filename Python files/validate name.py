@@ -14,6 +14,5 @@ def validate_name(name):
     except ValueError as e:
         print(f"Error: {e}")
 
-# Example usage:
 user_name = input("Enter your name: ")
 validate_name(user_name)
