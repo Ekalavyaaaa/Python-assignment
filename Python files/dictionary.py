@@ -3,5 +3,4 @@ def generate_cubes_dictionary():
     print("Generated Dictionary:")
     print(cubes_dict)
 
-# Example usage:
 generate_cubes_dictionary()
